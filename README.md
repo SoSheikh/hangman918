@@ -1,35 +1,46 @@
-# Hangman
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
-
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
-
 # Hangman Game
 
 ## Table of Contents
 - [Description](#description)
-- [Installation Instructions](#installation-instructions)
-- [Usage Instructions](#usage-instructions)
+- [Installation](#installation)
+- [Usage](#usage)
 - [File Structure](#file-structure)
-- [License Information](#license-information)
+- [License](#license)
 
 ## Description
-This project implements a text-based Hangman game in Python. The aim of the project is to provide an interactive game where users can guess letters to complete a hidden word. Through this project, I learned about Python programming, user input handling, and game logic.
+The Hangman Game project is a Python implementation of the classic word guessing game. The aim of the project is to provide an interactive experience where players can guess letters to uncover a hidden word within a limited number of attempts. This project serves as an exercise in Python programming, focusing on concepts such as classes, methods, user input handling, and basic game logic.
 
-## Installation Instructions
-1. Clone the repository: `git clone https://github.com/yourusername/hangman-game.git`
-2. Navigate to the project directory: `cd hangman-game`
-3. Install dependencies (if any): `pip install -r requirements.txt`
-4. Run the game: `python hangman.py`
+## Installation
+To run the Hangman Game locally on your machine, follow these steps:
+1. Clone the repository from GitHub:
+git clone https://github.com/your-username/hangman.git
 
-## Usage Instructions
-- Enter a single letter to guess the hidden word.
-- The game provides feedback on whether your guess is correct or incorrect.
-- You have a limited number of guesses to uncover the word.
+2. Navigate to the project directory:
+
+3. Ensure you have Python 3 installed. If not, download and install Python from [python.org](https://www.python.org/downloads/).
+4. Install any necessary dependencies (there shouldn't be any for this basic Hangman implementation):
+
+
+## Usage
+To play the Hangman Game, follow these instructions:
+1. Open a terminal or command prompt.
+2. Navigate to the project directory (`hangman`).
+3. Run the following command to start the game:
+python milestone_5.py
+
+
+4. Follow the prompts to guess letters and try to uncover the hidden word within the given number of lives.
 
 ## File Structure
-- `hangman.py`: Main game script.
-- `wordlist.txt`: Text file containing words for the game.
-- `README.md`: Project documentation.
+hangman/
+│
+├── milestone_5.py
+├── README.md
+└── .gitignore
 
-## License Information
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Additional Information
+Feel free to customize the README further with additional sections or details specific to your implementation or preferences. Make sure to update the README file as you continue to develop or refine your project.
