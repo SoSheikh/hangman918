@@ -42,5 +42,4 @@ hangman/
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Additional Information
-Feel free to customize the README further with additional sections or details specific to your implementation or preferences. Make sure to update the README file as you continue to develop or refine your project.
+
