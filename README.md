@@ -13,7 +13,7 @@ The Hangman Game project is a Python implementation of the classic word guessing
 ## Installation
 To run the Hangman Game locally on your machine, follow these steps:
 1. Clone the repository from GitHub:
-git clone https://github.com/your-username/hangman.git
+git clone https://github.com/SoSheikh/hangman918.git
 
 2. Navigate to the project directory:
 
